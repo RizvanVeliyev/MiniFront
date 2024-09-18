@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <h1>Cinemaniac</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Films</a></li>
+                <li><a href="#">Trends</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="film-details">
+        <div class="details-container">
+            <div class="film-image">
+                <img id="film-img" src="" alt="Film Image">
+            </div>
+            <div class="film-info">
+                <h1 id="film-title">Film Title</h1>
+                <p><strong>Rating:</strong> <span id="film-rating">N/A</span></p>
+                <p><strong>Genres:</strong> <span id="film-genres">N/A</span></p>
+                <p><strong>Description:</strong> <span id="film-summary">Film description goes here.</span></p>
+                <button class="watch-btn">Watch Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cinemaniac. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
